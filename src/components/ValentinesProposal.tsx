@@ -91,7 +91,7 @@ export default function ValentinesProposal() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Congratulations! You have completed the game.
+            Congratulations 🎉! My bubu So Smart 🥰
           </motion.h2>
         )}
         {step === 1 && (
@@ -103,7 +103,7 @@ export default function ValentinesProposal() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            I have a surprise for you!
+            Please Accept my Proposal 🥰 I Love You Kavya !
           </motion.h2>
         )}
         {step === 2 && (
@@ -132,7 +132,7 @@ export default function ValentinesProposal() {
             <h2
               className={`text-5xl font-semibold mb-8 ${playfairDisplay.className}`}
             >
-              Will you be my Valentine?
+              Will you be my Valentine? Sorry for late proposal 🥰
             </h2>
             <Image
               src="/sad_hamster.png"
@@ -152,10 +152,10 @@ export default function ValentinesProposal() {
                 style={
                   position
                     ? {
-                        position: "absolute",
-                        top: position.top,
-                        left: position.left,
-                      }
+                      position: "absolute",
+                      top: position.top,
+                      left: position.left,
+                    }
                     : {}
                 }
                 onMouseEnter={() => setPosition(getRandomPosition())}
